@@ -30,7 +30,6 @@ const mySplit = (str) => {
 
 const checkTime = (s1, s2, e1, e2) => {
 
-    // console.log("inside check time")
     start1 = +mySplit(s1)
     start2 = +mySplit(s2)
     end1 = +mySplit(e1)
@@ -42,7 +41,6 @@ const checkTime = (s1, s2, e1, e2) => {
 }
 
 const chechWeekDays = (arr1, arr2) => {
-    // console.log("inside Check weekdays")
 
     for (let i = 0; i < arr1.length; i++) {
         if (arr2.includes(arr1[i])) {
@@ -95,7 +93,7 @@ router.post("", async (req, res) => {
             (checkElement(elem.classId.class, req.body.class) && 
             checkElement(elem.classId.department, req.body.department) && 
             checkElement(elem.classId.course_number, req.body.number) ) ? 
-            err[0] = (" These are attending another class from this department") :
+            err[0] = (" These are attending another class from this department !") :
             err.pop();
         })
 
