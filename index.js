@@ -6,7 +6,7 @@ require("dotenv").config();
 const classController = require("./controllers/classController");
 const instructorController = require("./controllers/instructorController");
 const classRoomController = require ("./controllers/classRoomController");
-const homeController = require("./controllers/homeController");
+const meetingIdController = require("./controllers/meetingIdController");
 
 const app=express();
 app.use(express.json());
@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/createClass",classController);
 app.use("/createInstructor",instructorController);
 app.use("/createClassroom",classRoomController);
-app.use("",homeController);
+app.use("",meetingIdController);
 
 const port=process.env.PORT ||5555;
 
