@@ -10,10 +10,10 @@ Instructors and Class students. </p>
 * Mongoose Database
 
 # How to use : 
-* Main Url : https://time-table-generator-test.herokuapp.com/  ( <p>This is used to get the Meeting Id's and to create Meeting</p> )
-* To Create Class Room : https://time-table-generator-test.herokuapp.com/createClassroom ( <p> For Class room we take input's room and capacity </p> )
-* To Create Instructor : https://time-table-generator-test.herokuapp.com/createInstructor ( <p> To add Instructor in the database take input's name and department </p> )
-* To Create Class : https://time-table-generator-test.herokuapp.com/createClass ( <p> To add Class, department and Batch of the Students with maximum number of students in the database take input's class, department, number(Batch) and maximum_number_of_students  </p> )
+* Main Api : https://time-table-generator-test.herokuapp.com/  ( <p>This is used to get the Meeting Id's and to create Meeting</p> )
+* The Path to Create Class Room : " /createClassroom " ( <p> For Class room we take input's room and capacity </p> )
+* The Path to Create Instructor : " /createInstructor " ( <p> To add Instructor in the database take input's name and department </p> )
+* The Path to Create Class : " /createClass " ( <p> To add Class, department and Batch of the Students with maximum number of students in the database take input's class, department, number(Batch) and maximum_number_of_students  </p> )
             
 
 
